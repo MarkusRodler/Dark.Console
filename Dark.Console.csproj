@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>10.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PackageId>Dark.Console</PackageId>
+        <Authors>Markus Rodler</Authors>
+        <Company>Dark</Company>
+        <PackageDescription>This package helps building .NET Console Applications</PackageDescription>
+        <RepositoryUrl>https://github.com/MarkusRodler/Dark.Console</RepositoryUrl>
+        <IsTrimmable>true</IsTrimmable>
+    </PropertyGroup>
+
+</Project>
