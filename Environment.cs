@@ -6,7 +6,7 @@ public static class Environment
     {
         get
         {
-            Dictionary<string, string> config = new();
+            Dictionary<string, string> config = [];
             foreach (var argument in GetCommandLineArgs())
             {
                 var splittedArg = argument.Split('=', 2, StringSplitOptions.RemoveEmptyEntries);
